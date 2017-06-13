@@ -17,3 +17,11 @@ a {
 a:hover {
   color: #c45500;
 }
+
+#banner {
+  background: #F6F6F6 url('../img/banner.jpg') no-repeat top left;
+  height: 55px;
+  background-size: 1920px;
+  min-width: 1000px;
+  display: block;
+}
