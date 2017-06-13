@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  font-family: arial,sans-serif;
+  min-width: 900px;
+  line-height: 14px;
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0066c0;
+}
+
+a:hover {
+  color: #c45500;
+}
