@@ -283,3 +283,17 @@ header {
   font-size: 16px;
   font-weight: 700;
 }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1560px;
+  }
+}
+
+#promo .col-lg-12 {
+  padding: 0 22px 10px 22px;
+}
+
+#promo .carousel {
+  margin-top: -2px;
+}
