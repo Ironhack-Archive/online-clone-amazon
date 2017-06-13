@@ -193,3 +193,93 @@ header {
   border: none;
   text-indent: -1000px;
 }
+
+#nav-main ul {
+  list-style-type: none;
+  position: relative;
+  padding: 0;
+  margin: 18px 0 0 0;
+}
+
+#nav-main li {
+  display: inline-block;
+  padding: 10px 9px 0 0;
+}
+
+#nav-main a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#nav-main .nav-a {
+  padding: 7px 10px;
+  border: 1px solid transparent;
+  display: inline-block;
+  position: relative;
+}
+
+#nav-main .nav-a:hover {
+  border: 1px solid #4f5965;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 0 rgba(255,255,255,.5);
+}
+
+#nav-main .nav-a span {
+  display: block;
+  margin-left: -2px;
+  font-weight: 300;
+  color: #ccc;
+  font-size: 12px;
+}
+
+#nav-main i.fa-caret-down {
+  color: #ccc;
+  font-size: 11px;
+  padding-left: 3px;
+}
+
+#nav-main .nav-left {
+  height: 55px;
+}
+
+#nav-main .nav-left .nav-shop {
+  float: left;
+  width: 192px;
+  padding: 4px 12px 0 15px;
+}
+
+#nav-main .nav-left .nav-shop a {
+  margin-top: 16px;
+}
+
+#nav-main .nav-fill a {
+  font-weight: 500;
+  color: #ccc;
+}
+
+#nav-main .nav-fill a:hover {
+  text-decoration: underline;
+}
+
+#nav-main .nav-right {
+  padding-right: 6px;
+}
+
+#nav-main .nav-right a {
+  margin-top: 6px;
+}
+
+#nav-main .nav-right .cart {
+  background: transparent url(../img/cart.png) no-repeat 11px 11px;
+  background-size: 39px;
+  padding: 7px 20px 7px 50px;
+}
+
+#nav-main .nav-right .cart span {
+  color: #f08804;
+  margin-left: -20px;
+  font-size: 16px;
+  font-weight: 700;
+}
