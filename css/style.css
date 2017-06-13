@@ -459,3 +459,96 @@ footer .top a:hover {
 footer .top:hover {
   background: #485769;
 }
+
+footer .center {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+footer ul {
+  margin: 30px 40px 30px 0;
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+}
+
+footer .middle {
+  background: #232f3e;
+}
+
+footer .middle h3 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom 10px;
+  padding: 0;
+  font-size: 16px;
+}
+
+footer .middle li {
+  position: relative;
+}
+
+footer .middle .logo {
+  background: transparent url('../img/logo.png') no-repeat 0 0;
+  background-size: 76px;
+  width: 76px;
+  height: 23px;
+  display: block;
+  border: none !important;
+  margin-right: 60px;
+  position: absolute;
+  top: -14px;
+  left: -120px;
+}
+
+footer .middle a {
+  color: #ddd;
+  font-size: 13px;
+  display: block;
+  padding: 5px 0;
+}
+
+footer ul.copy {
+  display: inline-block;
+  width: 100%;
+}
+
+footer ul.copy li {
+  display: inline-block;
+  margin-right: 20px;
+  color: #999;
+  font-size: 11px;
+}
+
+footer .middle .copy {
+  border-top: 1px solid #3a4553;
+  padding: 30px 20px 20px 20px;
+}
+
+footer .middle .copy a {
+  padding: 10px 30px 10px 10px;
+  color: #ccc;
+  border: 1px solid #848688;
+  border-radius: 3px;
+}
+
+footer .middle .copy a:hover {
+  text-decoration: none;
+  border-color: #8D9096;
+}
+
+footer .middle .fa-globe {
+  margin-right: 5px;
+}
+
+footer .middle .flag-icon-us {
+  background-image: url('https://sp-bootstrap.global.ssl.fastly.net/8.0.0/images/flags/us.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 1em;
+  width: 1.33333333em;
+  margin-right: 7px;
+  background-position: 0 2px;
+}
