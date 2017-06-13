@@ -552,3 +552,26 @@ footer .middle .flag-icon-us {
   margin-right: 7px;
   background-position: 0 2px;
 }
+
+footer .bottom {
+  background: #131a22;
+}
+
+footer .bottom ul {
+  margin-right: 0;
+}
+
+footer .bottom li {
+  margin-bottom: 15px;
+}
+
+footer .bottom a {
+  color: #ddd;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+footer .bottom a span {
+  color: #999;
+  font-size: 10px;
+}
